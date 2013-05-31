@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c0c3109a-f829-40ec-822b-46f052032c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{be85d85f-7ee4-44c9-9520-8abf674a9bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TDS">
+      <UniqueIdentifier>{a177ae39-9194-478a-8bcc-92758b006f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TDS\MSVC">
+      <UniqueIdentifier>{588491a2-5180-43a0-adbf-9222652108a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TDS.cpp">
+      <Filter>Source\TDS\MSVC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TDS.h">
+      <Filter>Source\TDS\MSVC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source\TDS\MSVC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source\TDS\MSVC</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
