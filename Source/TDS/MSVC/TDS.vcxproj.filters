@@ -13,10 +13,19 @@
     <Filter Include="Source\TDS\MSVC">
       <UniqueIdentifier>{588491a2-5180-43a0-adbf-9222652108a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Engine\ResourceCache">
+      <UniqueIdentifier>{71ee5c30-eeeb-4040-a741-67a8546e626c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\MSVC">
+      <UniqueIdentifier>{e4865c52-07e4-4b99-aa99-dd05c2280942}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TDS.cpp">
       <Filter>Source\TDS\MSVC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\ResourceCache\ZipFile.cpp">
+      <Filter>Source\Engine\ResourceCache</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +37,12 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Source\TDS\MSVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\ResourceCache\ZipFile.h">
+      <Filter>Source\Engine\ResourceCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\MSVC\GameCodeStd.h">
+      <Filter>Source\Engine\MSVC</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
